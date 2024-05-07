@@ -14,3 +14,7 @@ For building and running the application you need:
 - Mapping Columns to DB
 - Setting unique constraints (ie Primary Key) to a table column
 - Generating Sequences
+
+[Student and Guardian Entities]()
+- @Embeddable and @Embedded
+- Few Basic JPA Functions
