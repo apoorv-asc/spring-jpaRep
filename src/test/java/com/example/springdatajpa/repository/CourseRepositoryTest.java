@@ -13,7 +13,7 @@ public class CourseRepositoryTest{
 	
 	@Autowired
 	private CourseRepository courseRepo;
-	
+
 	@Test
 	public void saveCourse() {
 		

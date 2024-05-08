@@ -15,23 +15,23 @@ public class CourseMaterialRepositoryTest {
 	@Autowired
 	private CourseMaterialRepository courseMaterialRepo;
 	
-//	@Test
-//	public void saveCourseMaterial() {
-//		
-//		Course course = Course.builder()
-//				.title("CSE 101")
-//				.credit("4")
-//				.build();
-//		
-//		CourseMaterial courseMaterial = CourseMaterial.builder()
-//				.url("www.google.com")
-//				.course(course)
-//				.build();
-//		
-//		
-//		courseMaterialRepo.save(courseMaterial);
-//		
-//	}
+	@Test
+	public void saveCourseMaterial() {
+		
+		Course course = Course.builder()
+				.title("CSE 101")
+				.credit("4")
+				.build();
+		
+		CourseMaterial courseMaterial = CourseMaterial.builder()
+				.url("www.google.com")
+				.course(course)
+				.build();
+		
+		
+		courseMaterialRepo.save(courseMaterial);
+		
+	}
 	
 	@Test
 	public void printAllCourses() {
