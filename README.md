@@ -15,10 +15,17 @@ For building and running the application you need:
 - Setting unique constraints (ie Primary Key) to a table column
 - Generating Sequences
 
-[Student and Guardian Entities](https://github.com/apoorv-asc/spring-jpaRep/commit/fd42a8849234391e2ebab6cf35e906211a1477da)
+[Student and Guardian Entities](https://github.com/apoorv-asc/spring-jpaRep/tree/fd42a8849234391e2ebab6cf35e906211a1477da)
 - @Embeddable and @Embedded
 - Few Basic JPA Functions
 
-[JPQL Queries]()
+[JPQL Queries](https://github.com/apoorv-asc/spring-jpaRep/tree/3937cb6a4d5eb06ba02947c7c43bffa65cb83efa)
 - JPQL Queries with named Parameters and other features
 - Update JPQL Queries
+
+[Relationships in DB]()
+- Join
+- Cascading
+- Fetching (Lazy and EAGER)
+- @OneToOne Relationship (Course <---> CourseMaterial)
+- @OneToMany Relationship (Teacher <---> Course)
